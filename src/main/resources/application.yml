@@ -3,12 +3,7 @@ server:
 demo:
   openapi:
     dev-url: http://localhost:7171
-    prod-url: http://localhost:7171
-spring:
-  r2dbc:
-    url: r2dbc:mysql://localhost:3306/demo-db
-    username: root
-    password: pass-word
+    prod-url: http://ec2-54-83-122-9.compute-1.amazonaws.com:9191
 springdoc:
   api-docs:
     path: /api-docs
